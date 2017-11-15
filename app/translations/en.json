@@ -1,0 +1,6 @@
+{
+  "containers.Auth.alreadyAccount.link": "Sign in",
+  "containers.Auth.alreadyAccount.text": "Already have an account? {signin}",
+  "containers.HomePage.mainText": "This is HomePage component",
+  "containers.NotFoundPage.mainText": "This is NotFound page"
+}

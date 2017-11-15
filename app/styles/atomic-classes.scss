@@ -1,0 +1,31 @@
+.mb-md {
+  margin-bottom: $rem-md;
+}
+.mb-lg {
+  margin-bottom: $rem-lg;
+}
+.mb-xxl {
+  margin-bottom: $rem-xxl;
+}
+
+.t-light-gray {
+  color: $light-gray;
+}
+.t-medium {
+  font-weight: $global-weight-medium;
+}
+.t-accent {
+  color: $accent-color;
+}
+
+.arrowLink {
+  &:after {
+    content: ' →';
+  }
+}
+
+.buttonLink {
+  text-transform: inherit;
+  color: $anchor-color;
+  cursor: pointer;
+}

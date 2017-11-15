@@ -1,0 +1,40 @@
+{
+  "plugins": [
+    "react",
+    "redux-saga",
+    "flowtype"
+  ],
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:flowtype/recommended",
+    "standard",
+    "standard-jsx"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true,
+    "es6": true
+  },
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "./internals/webpack/webpack.dev.babel.js"
+      }
+    }
+  },
+  "rules": {
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ]
+  }
+}

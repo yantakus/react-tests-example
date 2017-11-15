@@ -1,0 +1,6 @@
+{
+  "containers.Auth.alreadyAccount.link": "Log ind",
+  "containers.Auth.alreadyAccount.text": "Har du allerede en bruger? {signin}",
+  "containers.HomePage.mainText": "",
+  "containers.NotFoundPage.mainText": ""
+}

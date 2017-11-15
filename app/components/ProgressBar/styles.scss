@@ -1,0 +1,21 @@
+.progressBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  visibility: visible;
+  opacity: 1;
+  transition: all 400ms ease-in-out;
+  z-index: 9999;
+
+  &--hidden {
+    visibility: hidden;
+    opacity: 0;
+    z-index: -10;
+  }
+  &__percent {
+    height: 2px;
+    background: $accent-color;
+    transition: all 200ms ease;
+  }
+}
